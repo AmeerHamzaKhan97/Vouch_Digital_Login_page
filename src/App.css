@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+/* style="box-shadow: inset -0.2em -0.1em 0.2em 0.01em;row-gap: 0px;" */
+
+body{
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Josefin Sans', cursive;
+}
+
+
+.login-check{
+  font-size: 0.85rem;
+}
+
+.nav-row{
+  margin-left: 50px;
+  /* margin-right: 50px; */
+  margin-top: 10px;
+  flex-wrap: nowrap;
+  
+}
+
+nav{
+ box-shadow: inset -0.2em -0.1em 0.2em 0.01em;row-gap: 0px;
+}
+
+.nav-button{
+  margin-bottom: 0.5em;
+}
+
+.nav-row Button{
+  padding: 5px 40px;
+}
+
+.login-button{
+  padding: 5px 11px;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  font-size: large;
+}
+
+.showerror{
+  margin-top: 10px;
+  
+
+}
+
+
+.login-page{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 40px;
+}
+
+.password-box{
+  justify-content: space-around;
+}
+
+.login-col{
+  margin-top: 80px;
+}
+
+.first-word{
+  font-weight: bolder;
+}
+
+.button-1{
+  background-color: lightblue;
+  color: white;
+  border: 0px;
+}
+
+.button-2{
+  background-color: orange;
+  color: white;
+  border: 0px;
+}
+
+.login-text{
+  font-weight: bolder;
+  color: lightblue;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.login-para{
+  color: grey;
+  font-size: 13px;
+}
